@@ -13,6 +13,34 @@
 		F871B0051F8F116900747F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F871B0041F8F116900747F6F /* Assets.xcassets */; };
 		F871B0081F8F116900747F6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F871B0061F8F116900747F6F /* LaunchScreen.storyboard */; };
 		F871B00B1F8F116900747F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B00A1F8F116900747F6F /* main.m */; };
+		F871B0471F8F121900747F6F /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B03C1F8F11FA00747F6F /* SLKInputAccessoryView.m */; };
+		F871B0481F8F121900747F6F /* SLKTextInput+Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0331F8F11FA00747F6F /* SLKTextInput+Implementation.m */; };
+		F871B0491F8F121900747F6F /* SLKTextInputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B03D1F8F11FB00747F6F /* SLKTextInputbar.m */; };
+		F871B04A1F8F121900747F6F /* SLKTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B03A1F8F11FA00747F6F /* SLKTextView.m */; };
+		F871B04B1F8F121900747F6F /* SLKTextView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0441F8F11FB00747F6F /* SLKTextView+SLKAdditions.m */; };
+		F871B04C1F8F121900747F6F /* SLKTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0461F8F11FC00747F6F /* SLKTextViewController.m */; };
+		F871B04D1F8F121900747F6F /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B03F1F8F11FB00747F6F /* SLKTypingIndicatorView.m */; };
+		F871B04E1F8F121900747F6F /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0321F8F11FA00747F6F /* UIResponder+SLKAdditions.m */; };
+		F871B04F1F8F121900747F6F /* UIScrollView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0311F8F11F900747F6F /* UIScrollView+SLKAdditions.m */; };
+		F871B0501F8F121900747F6F /* UIView+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0381F8F11FA00747F6F /* UIView+SLKAdditions.m */; };
+		F871B0511F8F122700747F6F /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B02D1F8F11CD00747F6F /* Message.m */; };
+		F871B0521F8F122700747F6F /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0261F8F11CC00747F6F /* MessageTableViewCell.m */; };
+		F871B0531F8F122700747F6F /* MessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B02A1F8F11CD00747F6F /* MessageTextView.m */; };
+		F871B0541F8F122700747F6F /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B02F1F8F11CD00747F6F /* MessageViewController.m */; };
+		F871B0551F8F122700747F6F /* TypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B02C1F8F11CD00747F6F /* TypingIndicatorView.m */; };
+		F871B0561F8F122D00747F6F /* SLKInputActionButtonContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0171F8F119900747F6F /* SLKInputActionButtonContainerView.m */; };
+		F871B0571F8F122D00747F6F /* SLKInputComposerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B01D1F8F119A00747F6F /* SLKInputComposerView.m */; };
+		F871B0581F8F122D00747F6F /* SLKInputSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0221F8F119A00747F6F /* SLKInputSegmentedControl.m */; };
+		F871B0591F8F122D00747F6F /* SLKInputSegmentedSubcontrol.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B01F1F8F119A00747F6F /* SLKInputSegmentedSubcontrol.m */; };
+		F871B05A1F8F122D00747F6F /* SLKInputSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0121F8F119800747F6F /* SLKInputSelectionView.m */; };
+		F871B05B1F8F122D00747F6F /* SLKInputShortformLongformButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0231F8F119A00747F6F /* SLKInputShortformLongformButton.m */; };
+		F871B05C1F8F122D00747F6F /* SLKNewInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0181F8F119900747F6F /* SLKNewInputAccessoryView.m */; };
+		F871B05D1F8F122D00747F6F /* SLKRoundedCornerOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B0141F8F119900747F6F /* SLKRoundedCornerOverlayView.m */; };
+		F871B0611F8F127B00747F6F /* LoremIpsum.m in Sources */ = {isa = PBXBuildFile; fileRef = F871B05F1F8F127100747F6F /* LoremIpsum.m */; };
+		F871B0621F8F14A600747F6F /* SLKInputComposerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F871B0201F8F119A00747F6F /* SLKInputComposerView.xib */; };
+		F871B0631F8F14AB00747F6F /* SLKInputSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F871B0131F8F119900747F6F /* SLKInputSelectionView.xib */; };
+		F871B0641F8F14AE00747F6F /* SLKNewInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F871B0241F8F119B00747F6F /* SLKNewInputAccessoryView.xib */; };
+		F871B0661F8F165500747F6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F871B0651F8F162200747F6F /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +54,60 @@
 		F871B0071F8F116900747F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F871B0091F8F116900747F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F871B00A1F8F116900747F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F871B0121F8F119800747F6F /* SLKInputSelectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputSelectionView.m; sourceTree = "<group>"; };
+		F871B0131F8F119900747F6F /* SLKInputSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLKInputSelectionView.xib; sourceTree = "<group>"; };
+		F871B0141F8F119900747F6F /* SLKRoundedCornerOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKRoundedCornerOverlayView.m; sourceTree = "<group>"; };
+		F871B0151F8F119900747F6F /* SLKNewInputAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKNewInputAccessoryView.h; sourceTree = "<group>"; };
+		F871B0161F8F119900747F6F /* SLKInputSelectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputSelectionView.h; sourceTree = "<group>"; };
+		F871B0171F8F119900747F6F /* SLKInputActionButtonContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputActionButtonContainerView.m; sourceTree = "<group>"; };
+		F871B0181F8F119900747F6F /* SLKNewInputAccessoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKNewInputAccessoryView.m; sourceTree = "<group>"; };
+		F871B0191F8F119900747F6F /* SLKInputShortformLongformButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputShortformLongformButton.h; sourceTree = "<group>"; };
+		F871B01A1F8F119900747F6F /* SLKRoundedCornerOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKRoundedCornerOverlayView.h; sourceTree = "<group>"; };
+		F871B01B1F8F119900747F6F /* SLKInputActionButtonContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputActionButtonContainerView.h; sourceTree = "<group>"; };
+		F871B01C1F8F119A00747F6F /* SLKInputSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputSegmentedControl.h; sourceTree = "<group>"; };
+		F871B01D1F8F119A00747F6F /* SLKInputComposerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputComposerView.m; sourceTree = "<group>"; };
+		F871B01E1F8F119A00747F6F /* SLKInputSegmentedSubcontrol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputSegmentedSubcontrol.h; sourceTree = "<group>"; };
+		F871B01F1F8F119A00747F6F /* SLKInputSegmentedSubcontrol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputSegmentedSubcontrol.m; sourceTree = "<group>"; };
+		F871B0201F8F119A00747F6F /* SLKInputComposerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLKInputComposerView.xib; sourceTree = "<group>"; };
+		F871B0211F8F119A00747F6F /* SLKInputComposerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputComposerView.h; sourceTree = "<group>"; };
+		F871B0221F8F119A00747F6F /* SLKInputSegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputSegmentedControl.m; sourceTree = "<group>"; };
+		F871B0231F8F119A00747F6F /* SLKInputShortformLongformButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputShortformLongformButton.m; sourceTree = "<group>"; };
+		F871B0241F8F119B00747F6F /* SLKNewInputAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SLKNewInputAccessoryView.xib; sourceTree = "<group>"; };
+		F871B0261F8F11CC00747F6F /* MessageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		F871B0271F8F11CC00747F6F /* TypingIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypingIndicatorView.h; sourceTree = "<group>"; };
+		F871B0281F8F11CC00747F6F /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F871B0291F8F11CC00747F6F /* Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F871B02A1F8F11CD00747F6F /* MessageTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageTextView.m; sourceTree = "<group>"; };
+		F871B02B1F8F11CD00747F6F /* MessageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		F871B02C1F8F11CD00747F6F /* TypingIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TypingIndicatorView.m; sourceTree = "<group>"; };
+		F871B02D1F8F11CD00747F6F /* Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		F871B02E1F8F11CD00747F6F /* MessageTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageTextView.h; sourceTree = "<group>"; };
+		F871B02F1F8F11CD00747F6F /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F871B0311F8F11F900747F6F /* UIScrollView+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SLKAdditions.m"; sourceTree = "<group>"; };
+		F871B0321F8F11FA00747F6F /* UIResponder+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+SLKAdditions.m"; sourceTree = "<group>"; };
+		F871B0331F8F11FA00747F6F /* SLKTextInput+Implementation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SLKTextInput+Implementation.m"; sourceTree = "<group>"; };
+		F871B0341F8F11FA00747F6F /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKInputAccessoryView.h; sourceTree = "<group>"; };
+		F871B0351F8F11FA00747F6F /* SLKTypingIndicatorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorProtocol.h; sourceTree = "<group>"; };
+		F871B0361F8F11FA00747F6F /* SLKTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTextViewController.h; sourceTree = "<group>"; };
+		F871B0371F8F11FA00747F6F /* UIView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SLKAdditions.h"; sourceTree = "<group>"; };
+		F871B0381F8F11FA00747F6F /* UIView+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLKAdditions.m"; sourceTree = "<group>"; };
+		F871B0391F8F11FA00747F6F /* SLKTextView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLKTextView+SLKAdditions.h"; sourceTree = "<group>"; };
+		F871B03A1F8F11FA00747F6F /* SLKTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTextView.m; sourceTree = "<group>"; };
+		F871B03B1F8F11FA00747F6F /* UIScrollView+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SLKAdditions.h"; sourceTree = "<group>"; };
+		F871B03C1F8F11FA00747F6F /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKInputAccessoryView.m; sourceTree = "<group>"; };
+		F871B03D1F8F11FB00747F6F /* SLKTextInputbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTextInputbar.m; sourceTree = "<group>"; };
+		F871B03E1F8F11FB00747F6F /* SLKTypingIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTypingIndicatorView.h; sourceTree = "<group>"; };
+		F871B03F1F8F11FB00747F6F /* SLKTypingIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTypingIndicatorView.m; sourceTree = "<group>"; };
+		F871B0401F8F11FB00747F6F /* SLKUIConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKUIConstants.h; sourceTree = "<group>"; };
+		F871B0411F8F11FB00747F6F /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
+		F871B0421F8F11FB00747F6F /* SLKTextInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTextInput.h; sourceTree = "<group>"; };
+		F871B0431F8F11FB00747F6F /* SLKTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTextView.h; sourceTree = "<group>"; };
+		F871B0441F8F11FB00747F6F /* SLKTextView+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SLKTextView+SLKAdditions.m"; sourceTree = "<group>"; };
+		F871B0451F8F11FC00747F6F /* SLKTextInputbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLKTextInputbar.h; sourceTree = "<group>"; };
+		F871B0461F8F11FC00747F6F /* SLKTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLKTextViewController.m; sourceTree = "<group>"; };
+		F871B05F1F8F127100747F6F /* LoremIpsum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoremIpsum.m; sourceTree = "<group>"; };
+		F871B0601F8F127200747F6F /* LoremIpsum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoremIpsum.h; sourceTree = "<group>"; };
+		F871B0651F8F162200747F6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,17 +140,103 @@
 		F871AFFA1F8F116900747F6F /* MySlackTextViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F871B05E1F8F125900747F6F /* Third party */,
+				F871B0251F8F11BB00747F6F /* Share */,
+				F871B0111F8F117C00747F6F /* SLKTextView */,
 				F871AFFB1F8F116900747F6F /* AppDelegate.h */,
 				F871AFFC1F8F116900747F6F /* AppDelegate.m */,
 				F871AFFE1F8F116900747F6F /* ViewController.h */,
 				F871AFFF1F8F116900747F6F /* ViewController.m */,
 				F871B0011F8F116900747F6F /* Main.storyboard */,
+				F871B0651F8F162200747F6F /* Images.xcassets */,
 				F871B0041F8F116900747F6F /* Assets.xcassets */,
 				F871B0061F8F116900747F6F /* LaunchScreen.storyboard */,
 				F871B0091F8F116900747F6F /* Info.plist */,
 				F871B00A1F8F116900747F6F /* main.m */,
 			);
 			path = MySlackTextViewController;
+			sourceTree = "<group>";
+		};
+		F871B0111F8F117C00747F6F /* SLKTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F871B0341F8F11FA00747F6F /* SLKInputAccessoryView.h */,
+				F871B03C1F8F11FA00747F6F /* SLKInputAccessoryView.m */,
+				F871B0421F8F11FB00747F6F /* SLKTextInput.h */,
+				F871B0331F8F11FA00747F6F /* SLKTextInput+Implementation.m */,
+				F871B0451F8F11FC00747F6F /* SLKTextInputbar.h */,
+				F871B03D1F8F11FB00747F6F /* SLKTextInputbar.m */,
+				F871B0431F8F11FB00747F6F /* SLKTextView.h */,
+				F871B03A1F8F11FA00747F6F /* SLKTextView.m */,
+				F871B0391F8F11FA00747F6F /* SLKTextView+SLKAdditions.h */,
+				F871B0441F8F11FB00747F6F /* SLKTextView+SLKAdditions.m */,
+				F871B0361F8F11FA00747F6F /* SLKTextViewController.h */,
+				F871B0461F8F11FC00747F6F /* SLKTextViewController.m */,
+				F871B0351F8F11FA00747F6F /* SLKTypingIndicatorProtocol.h */,
+				F871B03E1F8F11FB00747F6F /* SLKTypingIndicatorView.h */,
+				F871B03F1F8F11FB00747F6F /* SLKTypingIndicatorView.m */,
+				F871B0401F8F11FB00747F6F /* SLKUIConstants.h */,
+				F871B0411F8F11FB00747F6F /* UIResponder+SLKAdditions.h */,
+				F871B0321F8F11FA00747F6F /* UIResponder+SLKAdditions.m */,
+				F871B03B1F8F11FA00747F6F /* UIScrollView+SLKAdditions.h */,
+				F871B0311F8F11F900747F6F /* UIScrollView+SLKAdditions.m */,
+				F871B0371F8F11FA00747F6F /* UIView+SLKAdditions.h */,
+				F871B0381F8F11FA00747F6F /* UIView+SLKAdditions.m */,
+				F871B0301F8F11DE00747F6F /* Customer UI */,
+			);
+			path = SLKTextView;
+			sourceTree = "<group>";
+		};
+		F871B0251F8F11BB00747F6F /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				F871B0291F8F11CC00747F6F /* Message.h */,
+				F871B02D1F8F11CD00747F6F /* Message.m */,
+				F871B02B1F8F11CD00747F6F /* MessageTableViewCell.h */,
+				F871B0261F8F11CC00747F6F /* MessageTableViewCell.m */,
+				F871B02E1F8F11CD00747F6F /* MessageTextView.h */,
+				F871B02A1F8F11CD00747F6F /* MessageTextView.m */,
+				F871B0281F8F11CC00747F6F /* MessageViewController.h */,
+				F871B02F1F8F11CD00747F6F /* MessageViewController.m */,
+				F871B0271F8F11CC00747F6F /* TypingIndicatorView.h */,
+				F871B02C1F8F11CD00747F6F /* TypingIndicatorView.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		F871B0301F8F11DE00747F6F /* Customer UI */ = {
+			isa = PBXGroup;
+			children = (
+				F871B01B1F8F119900747F6F /* SLKInputActionButtonContainerView.h */,
+				F871B0171F8F119900747F6F /* SLKInputActionButtonContainerView.m */,
+				F871B0211F8F119A00747F6F /* SLKInputComposerView.h */,
+				F871B01D1F8F119A00747F6F /* SLKInputComposerView.m */,
+				F871B0201F8F119A00747F6F /* SLKInputComposerView.xib */,
+				F871B01C1F8F119A00747F6F /* SLKInputSegmentedControl.h */,
+				F871B0221F8F119A00747F6F /* SLKInputSegmentedControl.m */,
+				F871B01E1F8F119A00747F6F /* SLKInputSegmentedSubcontrol.h */,
+				F871B01F1F8F119A00747F6F /* SLKInputSegmentedSubcontrol.m */,
+				F871B0161F8F119900747F6F /* SLKInputSelectionView.h */,
+				F871B0121F8F119800747F6F /* SLKInputSelectionView.m */,
+				F871B0131F8F119900747F6F /* SLKInputSelectionView.xib */,
+				F871B0191F8F119900747F6F /* SLKInputShortformLongformButton.h */,
+				F871B0231F8F119A00747F6F /* SLKInputShortformLongformButton.m */,
+				F871B0151F8F119900747F6F /* SLKNewInputAccessoryView.h */,
+				F871B0181F8F119900747F6F /* SLKNewInputAccessoryView.m */,
+				F871B0241F8F119B00747F6F /* SLKNewInputAccessoryView.xib */,
+				F871B01A1F8F119900747F6F /* SLKRoundedCornerOverlayView.h */,
+				F871B0141F8F119900747F6F /* SLKRoundedCornerOverlayView.m */,
+			);
+			path = "Customer UI";
+			sourceTree = "<group>";
+		};
+		F871B05E1F8F125900747F6F /* Third party */ = {
+			isa = PBXGroup;
+			children = (
+				F871B0601F8F127200747F6F /* LoremIpsum.h */,
+				F871B05F1F8F127100747F6F /* LoremIpsum.m */,
+			);
+			path = "Third party";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F871B0081F8F116900747F6F /* LaunchScreen.storyboard in Resources */,
+				F871B0631F8F14AB00747F6F /* SLKInputSelectionView.xib in Resources */,
+				F871B0661F8F165500747F6F /* Images.xcassets in Resources */,
 				F871B0051F8F116900747F6F /* Assets.xcassets in Resources */,
+				F871B0621F8F14A600747F6F /* SLKInputComposerView.xib in Resources */,
+				F871B0641F8F14AE00747F6F /* SLKNewInputAccessoryView.xib in Resources */,
 				F871B0031F8F116900747F6F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,8 +315,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				F871B0001F8F116900747F6F /* ViewController.m in Sources */,
+				F871B0531F8F122700747F6F /* MessageTextView.m in Sources */,
+				F871B04E1F8F121900747F6F /* UIResponder+SLKAdditions.m in Sources */,
+				F871B0521F8F122700747F6F /* MessageTableViewCell.m in Sources */,
+				F871B05C1F8F122D00747F6F /* SLKNewInputAccessoryView.m in Sources */,
+				F871B0501F8F121900747F6F /* UIView+SLKAdditions.m in Sources */,
+				F871B0561F8F122D00747F6F /* SLKInputActionButtonContainerView.m in Sources */,
+				F871B05D1F8F122D00747F6F /* SLKRoundedCornerOverlayView.m in Sources */,
+				F871B0511F8F122700747F6F /* Message.m in Sources */,
+				F871B04C1F8F121900747F6F /* SLKTextViewController.m in Sources */,
 				F871B00B1F8F116900747F6F /* main.m in Sources */,
+				F871B0591F8F122D00747F6F /* SLKInputSegmentedSubcontrol.m in Sources */,
+				F871B05A1F8F122D00747F6F /* SLKInputSelectionView.m in Sources */,
+				F871B0481F8F121900747F6F /* SLKTextInput+Implementation.m in Sources */,
+				F871B0571F8F122D00747F6F /* SLKInputComposerView.m in Sources */,
+				F871B0581F8F122D00747F6F /* SLKInputSegmentedControl.m in Sources */,
+				F871B05B1F8F122D00747F6F /* SLKInputShortformLongformButton.m in Sources */,
+				F871B0551F8F122700747F6F /* TypingIndicatorView.m in Sources */,
+				F871B04D1F8F121900747F6F /* SLKTypingIndicatorView.m in Sources */,
+				F871B0611F8F127B00747F6F /* LoremIpsum.m in Sources */,
+				F871B04F1F8F121900747F6F /* UIScrollView+SLKAdditions.m in Sources */,
+				F871B04B1F8F121900747F6F /* SLKTextView+SLKAdditions.m in Sources */,
 				F871AFFD1F8F116900747F6F /* AppDelegate.m in Sources */,
+				F871B04A1F8F121900747F6F /* SLKTextView.m in Sources */,
+				F871B0541F8F122700747F6F /* MessageViewController.m in Sources */,
+				F871B0491F8F121900747F6F /* SLKTextInputbar.m in Sources */,
+				F871B0471F8F121900747F6F /* SLKInputAccessoryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +476,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47793U9PJ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MySlackTextViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sai.MySlackTextViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,8 +498,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47793U9PJ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = MySlackTextViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sai.MySlackTextViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

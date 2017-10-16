@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6e1-EM-Sfn" customClass="SLKInputComposerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cyp-fB-fUK" customClass="SLKTextView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="39.5"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3nf-p3-TmQ" customClass="SLKInputShortformLongformButton">
+                    <rect key="frame" x="349" y="12" width="17" height="17"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="FhE-64-18Y"/>
+                        <constraint firstAttribute="width" constant="17" id="f1I-5k-e7G"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hL9-yM-lxJ" userLabel="hair line">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="VXe-dT-paB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hL9-yM-lxJ" firstAttribute="leading" secondItem="28m-X5-P2F" secondAttribute="leading" id="HAR-aV-4w5"/>
+                <constraint firstItem="28m-X5-P2F" firstAttribute="trailing" secondItem="hL9-yM-lxJ" secondAttribute="trailing" id="Hzd-7S-QDK"/>
+                <constraint firstItem="28m-X5-P2F" firstAttribute="trailing" secondItem="3nf-p3-TmQ" secondAttribute="trailing" constant="9" id="SXG-4s-cwN"/>
+                <constraint firstItem="Cyp-fB-fUK" firstAttribute="leading" secondItem="28m-X5-P2F" secondAttribute="leading" id="TJL-FP-CX2"/>
+                <constraint firstItem="hL9-yM-lxJ" firstAttribute="top" secondItem="28m-X5-P2F" secondAttribute="top" id="Tx4-q9-3cn"/>
+                <constraint firstItem="3nf-p3-TmQ" firstAttribute="top" secondItem="28m-X5-P2F" secondAttribute="top" constant="12.5" id="UR5-og-ee4"/>
+                <constraint firstItem="Cyp-fB-fUK" firstAttribute="top" secondItem="28m-X5-P2F" secondAttribute="top" id="V2P-MJ-Qjb"/>
+                <constraint firstItem="28m-X5-P2F" firstAttribute="trailing" secondItem="Cyp-fB-fUK" secondAttribute="trailing" id="gfs-RU-MUv"/>
+                <constraint firstItem="28m-X5-P2F" firstAttribute="bottom" secondItem="Cyp-fB-fUK" secondAttribute="bottom" id="qNF-Xa-wRN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="28m-X5-P2F"/>
+            <connections>
+                <outlet property="formButton" destination="3nf-p3-TmQ" id="En4-9G-SQk"/>
+                <outlet property="hairLine" destination="hL9-yM-lxJ" id="IcC-rK-fRR"/>
+                <outlet property="textView" destination="Cyp-fB-fUK" id="jc3-Fw-eg5"/>
+            </connections>
+            <point key="canvasLocation" x="-151.5" y="-189.5"/>
+        </view>
+    </objects>
+</document>

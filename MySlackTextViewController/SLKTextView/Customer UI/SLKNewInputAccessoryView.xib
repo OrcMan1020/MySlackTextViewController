@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SLKNewInputAccessoryView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="06J-d7-m7m">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vZi-Fb-HPV">
+                    <rect key="frame" x="0.0" y="40" width="375" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="0EO-RT-9nK"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bPd-UM-L3w" customClass="SLKRoundedCornerOverlayView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="15"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="jA8-Vg-Xfc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="bPd-UM-L3w" secondAttribute="trailing" id="F3D-yY-7Rx"/>
+                <constraint firstItem="06J-d7-m7m" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="JBp-9n-QYC"/>
+                <constraint firstItem="vZi-Fb-HPV" firstAttribute="top" secondItem="06J-d7-m7m" secondAttribute="bottom" id="RlF-cy-D7I"/>
+                <constraint firstItem="vZi-Fb-HPV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="ef8-3i-X7W"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="06J-d7-m7m" secondAttribute="trailing" id="gH4-Z0-iaz"/>
+                <constraint firstItem="06J-d7-m7m" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="gJC-2C-RQr"/>
+                <constraint firstItem="bPd-UM-L3w" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="gT9-Y1-V1w"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="vZi-Fb-HPV" secondAttribute="bottom" id="hg4-rU-3sv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vZi-Fb-HPV" secondAttribute="trailing" id="pic-Ti-1nc"/>
+                <constraint firstItem="bPd-UM-L3w" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="voc-M2-je8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="inputComposerContainerView" destination="06J-d7-m7m" id="PkL-uk-YBN"/>
+                <outlet property="inputComposerView" destination="06J-d7-m7m" id="bkU-fu-Ag3"/>
+                <outlet property="inputComposerViewHC" destination="JBp-9n-QYC" id="pJz-ew-PDh"/>
+                <outlet property="inputSelectionContainerView" destination="vZi-Fb-HPV" id="QAN-K5-fdo"/>
+                <outlet property="inputSelectionView" destination="vZi-Fb-HPV" id="i6m-3F-1kl"/>
+                <outlet property="inputSelectionViewHC" destination="0EO-RT-9nK" id="YYb-nv-Jqk"/>
+                <outlet property="roundCorner" destination="bPd-UM-L3w" id="zrM-Jm-cPk"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="78"/>
+        </view>
+    </objects>
+</document>
